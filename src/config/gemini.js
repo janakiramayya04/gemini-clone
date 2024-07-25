@@ -1,4 +1,4 @@
-// const apikey="AIzaSyAihJRKSnVuz18ZWLKOOf1yzHiF9nzr2Lc";
+
 /*
  * Install the Generative AI SDK
  *
@@ -14,7 +14,7 @@ import {
 } from "@google/generative-ai";
 
 const MODEL_NAME = "gemini-1.5-flash";
-const API_KEY = "AIzaSyAihJRKSnVuz18ZWLKOOf1yzHiF9nzr2Lc";
+const API_KEY = "your API key paste here...";
 
 async function runChat(prompt) {
   const genAI = new GoogleGenerativeAI(API_KEY);
